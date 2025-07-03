@@ -1,23 +1,33 @@
-A Windows Forms (.NET Framework) C# application providing bilingual dictionary features (English–Romanian & vice versa), including error handling for unrecognized or malformed input.
+# EngRo Dictionary
 
-Structure Insights:
-Written in C# using Windows Forms
+A Windows Forms C# application that allows you to search for English ↔ Romanian word translations using a custom-built bilingual dictionary engine.
 
-Located in App/ folder
+## Features
 
-Implements a custom SearchEngine/ with 4 search types:
+- Translations in 4 directions:
+  - English ↔ Romanian
+  - English ↔ English
+  - Romanian ↔ Romanian
+- Exception handling for misspelled or unrecognized words
+- Clean and responsive UI
+- Offline functionality
 
-English ↔ English
+## Tech Stack
 
-English ↔ Romanian
+- C# (.NET Framework)
+- Windows Forms UI
+- Custom SearchEngine logic
+- Embedded resources and icons
 
-Romanian ↔ English
+## Usage
 
-Romanian ↔ Romanian
+1. Open `Dictionary.sln` in Visual Studio.
+2. Build and run the project.
+3. Use the dropdown to select translation mode and enter the desired word.
 
-Exception handling is modularized in Exceptions/
+## Project Structure
 
-Icons and resources are embedded
-
-Includes screenshots in Snapshots/
-
+- `Exceptions/`: Custom exceptions for input errors
+- `SearchEngine/`: Word search logic across languages
+- `Resources/`: Embedded icons
+- `Snapshots/`: Preview screenshots of the UI
